@@ -3,6 +3,9 @@ on:
   pull_request:
     paths:
       - "config/**"
+  push:
+    paths:
+      - "config/**"
 
 jobs:
   check-config-filenames:
