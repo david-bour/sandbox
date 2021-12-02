@@ -2,4 +2,11 @@ name: Configuration Linter
 on:
   pull_request:
     paths:
-      - 'config/**'
+      - "config/**"
+
+jobs:
+  check-config-filenames:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run
+        run: echo "Hello World"
