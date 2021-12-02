@@ -1,0 +1,5 @@
+name: Configuration Linter
+on:
+  pull_request:
+    paths:
+      - 'config/**'
